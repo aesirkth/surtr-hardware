@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4e8f6175-9aea-4951-b154-d2128751e6cd)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Iout" (shape output) (at 113.03 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 76d36eee-54db-438b-b83b-c8c848be6fc2)
+  )
+)

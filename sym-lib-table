@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AD4111BCPZ")(type "KiCad")(uri "${KIPRJMOD}/ul_AD4111BCPZ/KiCADv6/2023-10-17_15-08-40.kicad_sym")(options "")(descr "Analog Devices AD4111 4-20 mA Precision ADC"))
+  (lib (name "AD8495")(type "KiCad")(uri "${KIPRJMOD}/ul_AD8495ARMZ/KiCADv6/2023-10-29_23-01-38.kicad_sym")(options "")(descr "Analog Devices AD8495 Precision Thermocouple Amplifiers with Cold Junction Compensation"))
+  (lib (name "DP83848K")(type "KiCad")(uri "${KIPRJMOD}/ul_DP83848KSQ-NOPB/KiCADv6/2023-12-23_21-58-27.kicad_sym")(options "")(descr "Industrial temperature, 10/100-Mbps Ethernet PHY transceiver"))
+  (lib (name "ARJM11A1-009-AB-EW2")(type "KiCad")(uri "${KIPRJMOD}/ul_ARJM11A1-009-AB-EW2/KiCADv6/2024-01-02_23-12-09.kicad_sym")(options "")(descr ""))
+)

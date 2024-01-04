@@ -1,0 +1,21 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ccfb9772-e65f-434f-a119-a46409aa93eb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (no_connect (at 55.88 81.28) (uuid 15485031-1aaf-46f5-9c14-3d4c002baabe))
+
+  (hierarchical_label "OWD_COMP" (shape input) (at 55.88 81.28 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 59af5578-d986-4dfa-aec8-a8465961b6d7)
+  )
+  (hierarchical_label "Vout" (shape input) (at 88.9 78.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a4df31a8-feb9-4693-8869-be1a47164139)
+  )
+)
