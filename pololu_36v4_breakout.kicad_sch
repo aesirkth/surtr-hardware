@@ -1152,10 +1152,6 @@
 					(reference "J12")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7fea090b-82e6-4eb0-9b7c-baea72b891f6"
-					(reference "J14")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1232,10 +1228,6 @@
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19e20a09-580b-4fe0-81d1-d7780d689436"
 					(reference "J13")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7fea090b-82e6-4eb0-9b7c-baea72b891f6"
-					(reference "J15")
 					(unit 1)
 				)
 			)

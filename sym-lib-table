@@ -9,4 +9,5 @@
   (lib (name "LM2940")(type "KiCad")(uri "${KIPRJMOD}/ul_LM2940IMPX-12-NOPB/KiCADv6/2024-03-03_01-53-59.kicad_sym")(options "")(descr ""))
   (lib (name "TJA1462")(type "KiCad")(uri "${KIPRJMOD}/ul_TJA1462AT-0Z/KiCADv6/2024-03-05_02-53-24.kicad_sym")(options "")(descr ""))
   (lib (name "TJA1462-v2")(type "KiCad")(uri "${KIPRJMOD}/ul_TJA1462AT-0Z copy/KiCADv6/2024-03-05_03-01-13.kicad_sym")(options "")(descr "")(disabled)(hidden))
+  (lib (name "LaunchpadControllerLib")(type "KiCad")(uri "${KIPRJMOD}/LaunchpadControllerLib.kicad_sym")(options "")(descr ""))
 )

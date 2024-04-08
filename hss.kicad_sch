@@ -708,7 +708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 68.58 71.628 90)
 			(effects
 				(font
@@ -735,11 +735,29 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "2076f8c3-b48b-462a-a6c3-730ac5f93f4b")
+			(uuid "25dc05d8-0582-43b6-8488-0be7b8951e66")
 		)
 		(pin "2"
-			(uuid "793e17ea-1553-4e4d-984e-b5f9a53cdf66")
+			(uuid "02d548b3-c0c3-4834-9a4e-b9c7d2360be5")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -747,31 +765,31 @@
 					(reference "R30")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9133cb4b-a7b2-477a-a0c6-94b9d717e12f"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
 					(reference "R36")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/c865904d-8c9a-4562-abb1-6be7dd799d1b"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
 					(reference "R32")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/f0cba6d7-d5c4-4893-ba87-5700f00f7024"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
 					(reference "R40")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a86a5b53-3400-4637-a641-27ff22f1eac2"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/d821aaa9-8ca9-473d-b07e-d5e5e9689f6c"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/1e0b1dfc-a59d-48d9-a424-8f0bf3f299cf"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
 					(reference "R46")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/fa595354-2346-4cdf-a3ae-d3c2a8baf078"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
 					(reference "R48")
 					(unit 1)
 				)
@@ -806,7 +824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -824,7 +842,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PLVA650A-QR"
+			(at 58.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 58.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "771-PLVA650A-QR"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -834,10 +870,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "64a2a7da-6496-48a0-8fa4-dd1af994e250")
+			(uuid "038f5b0c-8cbf-4f81-a1f4-5ae17d21e8cd")
 		)
 		(pin "2"
-			(uuid "b59a5b47-1de5-42f1-93e5-ef26a8f64df5")
+			(uuid "dae690a0-9bc1-4a47-8b0e-69d58a02b31d")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -845,31 +881,31 @@
 					(reference "D11")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9133cb4b-a7b2-477a-a0c6-94b9d717e12f"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
 					(reference "D12")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/c865904d-8c9a-4562-abb1-6be7dd799d1b"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
 					(reference "D10")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/f0cba6d7-d5c4-4893-ba87-5700f00f7024"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
 					(reference "D14")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a86a5b53-3400-4637-a641-27ff22f1eac2"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/d821aaa9-8ca9-473d-b07e-d5e5e9689f6c"
-					(reference "D18")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/1e0b1dfc-a59d-48d9-a424-8f0bf3f299cf"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
 					(reference "D15")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/fa595354-2346-4cdf-a3ae-d3c2a8baf078"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
 					(reference "D16")
 					(unit 1)
 				)
@@ -904,7 +940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 75.692 73.66 90)
 			(effects
 				(font
@@ -931,11 +967,29 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "7b363c39-e4fc-4bd3-9b89-7da9c8937cd0")
+			(uuid "52d8e458-bacf-4681-a190-7f6fb249819a")
 		)
 		(pin "2"
-			(uuid "d52b5ba3-9c57-432e-b73b-71b706d23984")
+			(uuid "19074763-eda2-4e51-9a6e-7f8d030cf68d")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -943,31 +997,31 @@
 					(reference "R26")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9133cb4b-a7b2-477a-a0c6-94b9d717e12f"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
 					(reference "R37")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/c865904d-8c9a-4562-abb1-6be7dd799d1b"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
 					(reference "R33")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/f0cba6d7-d5c4-4893-ba87-5700f00f7024"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
 					(reference "R41")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a86a5b53-3400-4637-a641-27ff22f1eac2"
-					(reference "R51")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/d821aaa9-8ca9-473d-b07e-d5e5e9689f6c"
-					(reference "R53")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/1e0b1dfc-a59d-48d9-a424-8f0bf3f299cf"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
 					(reference "R47")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/fa595354-2346-4cdf-a3ae-d3c2a8baf078"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
 					(reference "R49")
 					(unit 1)
 				)
@@ -1029,7 +1083,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6722bd7-93a4-4c75-985b-7b65bf81de98")
+			(uuid "2a1f5ce6-9752-4adc-954a-cb61cd62b653")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -1037,32 +1091,32 @@
 					(reference "#PWR0105")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9133cb4b-a7b2-477a-a0c6-94b9d717e12f"
-					(reference "#PWR0110")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
+					(reference "#PWR0109")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/c865904d-8c9a-4562-abb1-6be7dd799d1b"
-					(reference "#PWR0113")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
+					(reference "#PWR0112")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/f0cba6d7-d5c4-4893-ba87-5700f00f7024"
-					(reference "#PWR0116")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
+					(reference "#PWR0115")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a86a5b53-3400-4637-a641-27ff22f1eac2"
-					(reference "#PWR099")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
+					(reference "#PWR0101")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/d821aaa9-8ca9-473d-b07e-d5e5e9689f6c"
-					(reference "#PWR0100")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
+					(reference "#PWR0103")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/1e0b1dfc-a59d-48d9-a424-8f0bf3f299cf"
-					(reference "#PWR097")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
+					(reference "#PWR0104")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/fa595354-2346-4cdf-a3ae-d3c2a8baf078"
-					(reference "#PWR098")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1121,20 +1175,38 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 91.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 91.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "11a2729c-a00f-4cc6-acb9-8686c1afed66")
+			(uuid "188b15f5-535b-452f-8234-2afcb599462d")
 		)
 		(pin "2"
-			(uuid "ac540243-d43d-473f-8246-c519704128a4")
+			(uuid "e1234013-aa1f-41ba-b682-aec01eef5f32")
 		)
 		(pin "3"
-			(uuid "58029b13-aca2-463b-babd-38cd20609c77")
+			(uuid "67795bef-6989-4157-b22f-ab564423ab55")
 		)
 		(pin "4"
-			(uuid "3f7531cb-9e93-4e8a-8df0-251533a36cfc")
+			(uuid "732eaa9d-688b-462a-98fd-a1ac1594b282")
 		)
 		(pin "5"
-			(uuid "0ecce5f3-49a4-4e8a-9346-c0b746a30324")
+			(uuid "6cd86fcd-3b5d-4706-8e99-7858fdb3c457")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -1142,31 +1214,31 @@
 					(reference "U17")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9133cb4b-a7b2-477a-a0c6-94b9d717e12f"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
 					(reference "U18")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/c865904d-8c9a-4562-abb1-6be7dd799d1b"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
 					(reference "U19")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/f0cba6d7-d5c4-4893-ba87-5700f00f7024"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
 					(reference "U20")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a86a5b53-3400-4637-a641-27ff22f1eac2"
-					(reference "U15")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/d821aaa9-8ca9-473d-b07e-d5e5e9689f6c"
-					(reference "U16")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/1e0b1dfc-a59d-48d9-a424-8f0bf3f299cf"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
 					(reference "U12")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/fa595354-2346-4cdf-a3ae-d3c2a8baf078"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
 					(reference "U14")
 					(unit 1)
 				)
@@ -1228,7 +1300,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "28ce3c46-5b3c-4dba-935d-e8bf080e9736")
+			(uuid "a4095cf3-3cb7-498f-ab0e-344ffe5a013a")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -1236,32 +1308,32 @@
 					(reference "#PWR0170")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9133cb4b-a7b2-477a-a0c6-94b9d717e12f"
-					(reference "#PWR0171")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
+					(reference "#PWR0108")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/c865904d-8c9a-4562-abb1-6be7dd799d1b"
-					(reference "#PWR0172")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
+					(reference "#PWR0111")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/f0cba6d7-d5c4-4893-ba87-5700f00f7024"
-					(reference "#PWR0173")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
+					(reference "#PWR0114")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a86a5b53-3400-4637-a641-27ff22f1eac2"
-					(reference "#PWR0168")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
+					(reference "#PWR097")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/d821aaa9-8ca9-473d-b07e-d5e5e9689f6c"
-					(reference "#PWR0169")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
+					(reference "#PWR099")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/1e0b1dfc-a59d-48d9-a424-8f0bf3f299cf"
-					(reference "#PWR0166")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
+					(reference "#PWR0100")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/fa595354-2346-4cdf-a3ae-d3c2a8baf078"
-					(reference "#PWR0167")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)

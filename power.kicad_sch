@@ -5,252 +5,6 @@
 	(uuid "196aded4-79f4-432a-afdd-43d4729128f2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -628,6 +382,152 @@
 				)
 			)
 			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1068,6 +968,237 @@
 				)
 			)
 		)
+		(symbol "LaunchpadControllerLib:GenericSwitchingReg"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.112 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Generic Switching Reg"
+				(at 6.604 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GenericSwitchingReg_0_1"
+				(rectangle
+					(start 0 12.7)
+					(end 12.7 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GenericSwitchingReg_1_1"
+				(pin input line
+					(at -2.54 11.43 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 8.89 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 3.81 0)
+					(length 2.54)
+					(name "VO+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 200.66 52.07)
@@ -1076,28 +1207,22 @@
 		(uuid "0b7ef0c6-4cf3-4319-9163-4c94d4b9da05")
 	)
 	(junction
-		(at 76.2 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dc461b6-5ce8-4dd6-83be-55b0091ac11f")
-	)
-	(junction
 		(at 53.34 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "151e9e56-0195-4411-89d6-dbe3a19d0c4c")
 	)
 	(junction
-		(at 102.87 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b06578d-26e2-4549-8a47-be293342af4f")
-	)
-	(junction
 		(at 49.53 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48f5a292-9c9e-4747-bbfe-117a5c0e873e")
+	)
+	(junction
+		(at 102.87 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73e79c48-f4a0-4c96-a221-44d64af3d40e")
 	)
 	(junction
 		(at 76.2 96.52)
@@ -1141,12 +1266,6 @@
 		(color 0 0 0 0)
 		(uuid "decbe41c-12f1-4531-8386-47749889311c")
 	)
-	(junction
-		(at 219.71 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dff1b5b0-2757-4f57-b68d-a89e80b2d02f")
-	)
 	(wire
 		(pts
 			(xy 99.06 88.9) (xy 99.06 73.66)
@@ -1176,16 +1295,6 @@
 			(type default)
 		)
 		(uuid "0efa8470-864f-4a77-ae27-2784d85ab372")
-	)
-	(wire
-		(pts
-			(xy 88.9 161.29) (xy 90.17 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "137a96d4-65bf-46e5-b1c2-fe1ffe3c3fe6")
 	)
 	(wire
 		(pts
@@ -1389,16 +1498,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 106.68) (xy 80.01 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69fddf5b-a5a9-4a25-af2b-91787ae9f1b8")
-	)
-	(wire
-		(pts
 			(xy 49.53 96.52) (xy 53.34 96.52)
 		)
 		(stroke
@@ -1439,17 +1538,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 63.5) (xy 219.71 63.5)
+			(xy 121.92 130.81) (xy 132.08 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93f8057a-dd35-4b44-b053-9ce6e4955e1b")
+		(uuid "7d4bd4e5-6792-4150-ae63-7e0d99bc7de9")
 	)
 	(wire
 		(pts
-			(xy 208.28 60.96) (xy 219.71 60.96)
+			(xy 198.12 60.96) (xy 219.71 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1466,16 +1565,6 @@
 			(type default)
 		)
 		(uuid "9bca8796-2d74-4ad8-a71b-5fa6e6190a90")
-	)
-	(wire
-		(pts
-			(xy 102.87 130.81) (xy 110.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bee0e77-16ae-4c30-a0f3-bbe8de1144f8")
 	)
 	(wire
 		(pts
@@ -1559,16 +1648,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 60.96) (xy 219.71 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf8f3e5-5200-439b-ba7d-c7078301b3b5")
-	)
-	(wire
-		(pts
 			(xy 186.69 46.99) (xy 200.66 46.99)
 		)
 		(stroke
@@ -1639,17 +1718,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 76.2 106.68)
+			(xy 64.77 44.45) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee7c1965-a698-4160-96c2-1714ed20cead")
+		(uuid "efc5eba4-8e7e-40d4-89f3-ed2b441179ad")
+	)
+	(wire
+		(pts
+			(xy 114.3 130.81) (xy 102.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e9e4bc-0c13-4e05-ba70-cd44da9819cd")
 	)
 	(text "This connector is for the external switching regulator modules we bought"
 		(exclude_from_sim no)
-		(at 59.69 53.34 0)
+		(at 78.232 38.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1691,17 +1780,6 @@
 		)
 		(uuid "305cfd08-2660-417e-8345-ffba86b1ca6d")
 	)
-	(label "CONVERTER_GND"
-		(at 72.39 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d8593b4-22ef-4fa3-be58-fa1ce64f4ad9")
-	)
 	(label "EN"
 		(at 186.69 55.88 180)
 		(fields_autoplaced yes)
@@ -1712,17 +1790,6 @@
 			(justify right bottom)
 		)
 		(uuid "55aaffeb-0471-4c0f-a48c-78072850a98d")
-	)
-	(label "CONVERTER_GND"
-		(at 208.28 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64b795ef-4f52-412f-b9d7-b35df1162008")
 	)
 	(label "IN+"
 		(at 74.93 46.99 180)
@@ -1746,20 +1813,9 @@
 		)
 		(uuid "eba1534f-730e-4263-9a1a-b2718bcde952")
 	)
-	(label "CONVERTER_GND"
-		(at 74.93 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f5508479-7758-48fe-b2ef-6f59b182a6ea")
-	)
 	(hierarchical_label "12V_REGULATED"
 		(shape output)
-		(at 110.49 130.81 0)
+		(at 132.08 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1781,18 +1837,6 @@
 		)
 		(uuid "1a493524-ee34-49e0-b8be-cb4f84a74ab8")
 	)
-	(hierarchical_label "GND_OUT"
-		(shape passive)
-		(at 88.9 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ba589b5-b5d7-40ca-b718-d27d16bd8cdb")
-	)
 	(hierarchical_label "INPA_GND"
 		(shape input)
 		(at 219.71 54.61 0)
@@ -1805,18 +1849,6 @@
 		)
 		(uuid "25fc494d-87ed-4f4c-ab8b-392bae4ee906")
 	)
-	(hierarchical_label "GND_OUT"
-		(shape passive)
-		(at 198.12 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2931b7aa-e719-47a2-88f6-4780423da4f7")
-	)
 	(hierarchical_label "24V_OUT"
 		(shape output)
 		(at 198.12 78.74 180)
@@ -1828,30 +1860,6 @@
 			(justify right)
 		)
 		(uuid "6e1c0e90-c155-4b8e-a900-07831ff7ba0b")
-	)
-	(hierarchical_label "GND_OUT"
-		(shape passive)
-		(at 208.28 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97c60c54-4e1c-48a3-98dd-510f23f205a4")
-	)
-	(hierarchical_label "GND_OUT"
-		(shape passive)
-		(at 80.01 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9da06d5a-27f9-4dd7-84c4-048d63ef8afe")
 	)
 	(hierarchical_label "INPB_24V"
 		(shape input)
@@ -1939,7 +1947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 54.61 43.688 90)
 			(effects
 				(font
@@ -1948,7 +1956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=BLM18KG102SN1%23"
 			(at 54.61 41.91 0)
 			(effects
 				(font
@@ -1957,7 +1965,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead BLM18KG102SN1D"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "81-BLM18KG102SN1D "
 			(at 54.61 41.91 0)
 			(effects
 				(font
@@ -2036,6 +2062,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 74.93 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 74.93 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0849f83-99ee-4a3b-b292-ae89f422599e")
 		)
@@ -2052,6 +2096,84 @@
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
 					(reference "U27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 118.11 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a70a31b-7ef0-4821-9715-691950073f1d")
+		(property "Reference" "F3"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.75 A; 350 mA; 16V "
+			(at 118.11 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-psht.pdf"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient MF-PSHT035KX-2"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "652-MF-PSHT035KX-2"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca9dfa51-ecc6-4ece-a237-c7a6d291fd1f")
+		)
+		(pin "2"
+			(uuid "083316f2-2150-41cd-af7d-b5ef7b312008")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -2085,7 +2207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.9148 152.4 0)
 			(effects
 				(font
@@ -2112,6 +2234,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a555125-ec1d-480e-a0f3-f70173027492")
 		)
@@ -2122,6 +2262,72 @@
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
 					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "350afcbf-9df3-4004-beeb-984c03af2f25")
+		(property "Reference" "#PWR0259"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fc79265-93b9-44a9-b0d3-cdddf015fe90")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
+					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -2155,7 +2361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 103.8352 152.4 0)
 			(effects
 				(font
@@ -2182,6 +2388,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 102.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 102.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65207bb8-892f-4a35-8c4d-14d11fa7c8a3")
 		)
@@ -2192,6 +2416,72 @@
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
 					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e615123-b09f-4824-aa5f-c0a5829c81ba")
+		(property "Reference" "#PWR0168"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06ca8004-c331-4d55-9290-7d67d2d4f3ce")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -2223,7 +2513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Keystone_3557-2"
 			(at 210.82 53.848 90)
 			(effects
 				(font
@@ -2250,6 +2540,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 210.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "534-3557-2 "
+			(at 210.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8802d349-638a-4b82-8266-a86242e9f7ad")
 		)
@@ -2260,6 +2568,72 @@
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e299262-7ca1-4483-bacf-fc18456c5d16")
+		(property "Reference" "#PWR0172"
+			(at 90.17 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "909e80b7-74bc-49f8-875e-9a0c99d7b3a7")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -2291,7 +2665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Keystone_3557-2"
 			(at 208.28 80.518 90)
 			(effects
 				(font
@@ -2310,6 +2684,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "534-3557-2 "
 			(at 208.28 78.74 0)
 			(effects
 				(font
@@ -2361,7 +2753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.0252 96.52 0)
 			(effects
 				(font
@@ -2388,6 +2780,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b210f86c-f49c-438a-994b-4690753ed4db")
 		)
@@ -2398,6 +2808,72 @@
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
 					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d80ff30-3bac-4852-9f49-902a61cdc68a")
+		(property "Reference" "#PWR0173"
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e900ddc3-e938-4093-b83a-91aecb85a6cd")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -2431,7 +2907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.5648 91.44 0)
 			(effects
 				(font
@@ -2458,6 +2934,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91f24ad7-9036-468b-9c41-c175946e16a2")
 		)
@@ -2468,82 +2962,6 @@
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
 					(reference "C91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 80.01 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd8c0784-3932-4eac-95a9-5da98032a71c")
-		(property "Reference" "J17"
-			(at 81.28 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92e2fe05-8c1c-4f77-b81c-a42ae7373cb7")
-		)
-		(pin "2"
-			(uuid "24c886f2-20b6-48f7-b16e-ff8f35bcc542")
-		)
-		(pin "3"
-			(uuid "a918db82-944f-41cc-bc6b-ee259fb80a2c")
-		)
-		(pin "4"
-			(uuid "d3fe922c-b881-44dc-9bad-4e33b10e8905")
-		)
-		(instances
-			(project "launchpad-controller-v2"
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
-					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -2603,6 +3021,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85fde938-a8d4-4c5f-86fb-4fe2053fcc27")
 		)
@@ -2619,6 +3055,166 @@
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
 					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LaunchpadControllerLib:GenericSwitchingReg")
+		(at 77.47 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7bd2168-aef3-417f-ad89-8c9c59ff0d1e")
+		(property "Reference" "U29"
+			(at 97.79 47.6251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Generic Switching Reg"
+			(at 97.79 45.0851 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edc69e0f-5cab-48f3-a408-5bc147b30dd3")
+		)
+		(pin "1"
+			(uuid "9ab19eab-9fa9-453f-b832-7d7ecea7433b")
+		)
+		(pin "3"
+			(uuid "fe92a316-291f-4da3-80b8-4c213fbfc63b")
+		)
+		(pin "4"
+			(uuid "3f206790-9c6a-442a-82f5-e26babf783ea")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
+					(reference "U29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8769fe9-0eb6-414a-b077-d677925aafe2")
+		(property "Reference" "#PWR0171"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8d61d87-c24b-4060-84ab-ac4921088da6")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/4bb9601b-797d-416b-873f-14cacc30ce2a"
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)

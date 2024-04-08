@@ -1799,12 +1799,6 @@
 		)
 	)
 	(junction
-		(at 139.7 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "188e3982-9611-4710-bf11-22bbb1b994e2")
-	)
-	(junction
 		(at 59.69 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1891,10 +1885,6 @@
 	(no_connect
 		(at 139.7 69.85)
 		(uuid "700bf4af-2aa6-41d9-bd70-46114bb0d78e")
-	)
-	(no_connect
-		(at 128.27 60.96)
-		(uuid "7af23a8a-9a2f-4a7a-8704-2736455ded72")
 	)
 	(no_connect
 		(at 63.5 49.53)
@@ -1993,16 +1983,6 @@
 			(type default)
 		)
 		(uuid "1d3000db-dfbb-4f19-afb6-84ed30989dbf")
-	)
-	(wire
-		(pts
-			(xy 135.89 92.71) (xy 139.7 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9e52fe-115c-4e16-9301-0c29a387ec08")
 	)
 	(wire
 		(pts
@@ -2466,6 +2446,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 92.71) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb66cb4-966e-4746-9d4a-cc5fbd33c1b6")
+	)
+	(wire
+		(pts
 			(xy 59.69 97.79) (xy 59.69 95.25)
 		)
 		(stroke
@@ -2473,16 +2463,6 @@
 			(type default)
 		)
 		(uuid "f1d5ce60-3535-40bd-a22a-cb3801536ef1")
-	)
-	(wire
-		(pts
-			(xy 139.7 92.71) (xy 149.86 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7707738-53ab-443a-b9dd-d26a835b6913")
 	)
 	(wire
 		(pts
@@ -2969,7 +2949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 172.4152 87.63 0)
 			(effects
 				(font
@@ -2988,6 +2968,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 171.45 83.82 0)
 			(effects
 				(font
@@ -3038,7 +3036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.9852 87.63 0)
 			(effects
 				(font
@@ -3057,6 +3055,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 160.02 83.82 0)
 			(effects
 				(font
@@ -3174,7 +3190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 160.02 0)
 			(effects
 				(font
@@ -3193,6 +3209,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 43.18 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 43.18 156.21 0)
 			(effects
 				(font
@@ -3310,7 +3344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 32.512 33.02 90)
 			(effects
 				(font
@@ -3329,6 +3363,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 34.29 33.02 0)
 			(effects
 				(font
@@ -3446,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 31.4452 157.48 0)
 			(effects
 				(font
@@ -3465,6 +3517,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -3582,7 +3652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 217.932 76.2 90)
 			(effects
 				(font
@@ -3601,6 +3671,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 219.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 219.71 76.2 0)
 			(effects
 				(font
@@ -3782,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 35.56 43.688 90)
 			(effects
 				(font
@@ -3810,6 +3898,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -3880,6 +3986,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 74.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 74.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 74.93 142.24 0)
 			(effects
 				(font
@@ -3961,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 23.8252 92.71 0)
 			(effects
 				(font
@@ -3980,6 +4104,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 22.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 22.86 88.9 0)
 			(effects
 				(font
@@ -4095,7 +4237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 152.4 156.718 90)
 			(effects
 				(font
@@ -4114,6 +4256,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 152.4 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 152.4 154.94 0)
 			(effects
 				(font
@@ -4297,7 +4457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 238.4552 52.07 0)
 			(effects
 				(font
@@ -4316,6 +4476,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 237.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 237.49 48.26 0)
 			(effects
 				(font
@@ -4366,7 +4544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 35.2552 95.25 0)
 			(effects
 				(font
@@ -4385,6 +4563,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 34.29 91.44 0)
 			(effects
 				(font
@@ -4698,7 +4894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 152.4 146.558 90)
 			(effects
 				(font
@@ -4717,6 +4913,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -4768,7 +4982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 219.202 52.07 90)
 			(effects
 				(font
@@ -4787,6 +5001,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 220.98 52.07 0)
 			(effects
 				(font
@@ -4838,7 +5070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 219.202 36.83 90)
 			(effects
 				(font
@@ -4857,6 +5089,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -4972,7 +5222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 35.56 52.832 90)
 			(effects
 				(font
@@ -4991,6 +5241,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 35.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 35.56 54.61 0)
 			(effects
 				(font
@@ -5240,7 +5508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 217.932 91.44 90)
 			(effects
 				(font
@@ -5259,6 +5527,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 219.71 91.44 0)
 			(effects
 				(font
@@ -5310,7 +5596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 237.1852 91.44 0)
 			(effects
 				(font
@@ -5329,6 +5615,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 236.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 236.22 87.63 0)
 			(effects
 				(font
@@ -5399,6 +5703,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 63.5 34.29 0)
 			(effects
 				(font

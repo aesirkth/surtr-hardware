@@ -1130,6 +1130,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GNDA"
 			(power)
 			(pin_names
@@ -1335,16 +1455,16 @@
 		)
 	)
 	(junction
-		(at 93.98 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "000b3016-1f25-4a0a-ba66-89dec0ae2774")
-	)
-	(junction
 		(at 186.69 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2654ea06-972b-45f4-9287-e86748b914f5")
+	)
+	(junction
+		(at 93.98 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26fa07e5-2af2-425f-8ce0-b7f7a9290239")
 	)
 	(junction
 		(at 179.07 85.09)
@@ -1472,6 +1592,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 71.12) (xy 25.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6c7d3b-74c5-4f7a-b23e-be71c627bc25")
+	)
+	(wire
+		(pts
 			(xy 69.85 59.69) (xy 81.28 59.69)
 		)
 		(stroke
@@ -1552,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 69.85) (xy 29.21 69.85)
+			(xy 66.04 69.85) (xy 38.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 54.61 69.85)
+			(xy 66.04 46.99) (xy 66.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 46.99) (xy 54.61 46.99)
+			(xy 107.95 46.99) (xy 66.04 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 59.69) (xy 29.21 59.69)
+			(xy 64.77 59.69) (xy 38.1 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1759,6 +1889,26 @@
 			(type default)
 		)
 		(uuid "6e3a136b-655e-4982-ae11-c2091294575d")
+	)
+	(wire
+		(pts
+			(xy 24.13 40.64) (xy 25.4 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e96b2b0-ee41-4bf5-9f91-ebc15eca5f52")
+	)
+	(wire
+		(pts
+			(xy 24.13 50.8) (xy 25.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f40f9e8-0823-4203-825b-6b736317cd77")
 	)
 	(wire
 		(pts
@@ -1832,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 41.91) (xy 52.07 41.91)
+			(xy 107.95 41.91) (xy 63.5 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 44.45) (xy 53.34 59.69)
+			(xy 64.77 44.45) (xy 64.77 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 49.53) (xy 29.21 49.53)
+			(xy 63.5 49.53) (xy 38.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 41.91) (xy 52.07 49.53)
+			(xy 63.5 41.91) (xy 63.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2112,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 53.34 44.45)
+			(xy 107.95 44.45) (xy 64.77 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 39.37) (xy 107.95 39.37)
+			(xy 38.1 39.37) (xy 107.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2149,6 +2299,16 @@
 			(type default)
 		)
 		(uuid "e788bacc-5689-45c0-be1b-1d069567afa8")
+	)
+	(wire
+		(pts
+			(xy 24.13 60.96) (xy 25.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7994742-5bcf-41c3-a0c2-50144f801611")
 	)
 	(wire
 		(pts
@@ -2200,6 +2360,16 @@
 		)
 		(uuid "fe32d0da-158d-4459-8e72-367812710886")
 	)
+	(text "Decoupling for REFOUT here\nToo crowded above..."
+		(exclude_from_sim no)
+		(at 34.798 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93be32e2-478d-43d6-b75b-f2e1738825ab")
+	)
 	(label "AVDD"
 		(at 101.6 57.15 180)
 		(fields_autoplaced yes)
@@ -2221,6 +2391,17 @@
 			(justify left bottom)
 		)
 		(uuid "4c5a5a02-5d8c-48a7-8c24-f4d029824c60")
+	)
+	(label "REFOUT"
+		(at 101.6 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d7c96fb-dbd1-493f-9005-a4c933c88644")
 	)
 	(label "AVDD"
 		(at 85.09 22.86 0)
@@ -2255,6 +2436,39 @@
 		)
 		(uuid "6a4e35a8-6dd9-4597-9659-f370d8f83a43")
 	)
+	(label "REFOUT"
+		(at 24.13 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a37392c-e1fc-4301-b703-539663a2c9bd")
+	)
+	(label "REFOUT"
+		(at 24.13 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dd79607-afa2-48cd-81ef-97f92721873a")
+	)
+	(label "REFOUT"
+		(at 24.13 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8ebf9fc-4977-4e86-8273-990f7424e849")
+	)
 	(label "COMPA"
 		(at 226.06 106.68 0)
 		(fields_autoplaced yes)
@@ -2276,6 +2490,28 @@
 			(justify left bottom)
 		)
 		(uuid "d53f8a4d-6fdb-4a9b-9417-cdc36fe0b27f")
+	)
+	(label "REFOUT"
+		(at 27.94 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e00feaed-b631-490f-8717-5916167cb710")
+	)
+	(label "REFOUT"
+		(at 24.13 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f11be634-1d8a-44a3-ab8d-aef7a68ca2cf")
 	)
 	(label "COMPB"
 		(at 226.06 95.25 0)
@@ -2323,18 +2559,6 @@
 			(justify right)
 		)
 		(uuid "24b695ee-e38e-4b69-a6f8-a3673919ac09")
-	)
-	(hierarchical_label "REFOUT"
-		(shape output)
-		(at 27.94 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5afc9982-259c-4a02-b829-2b8e4030306f")
 	)
 	(hierarchical_label "REF+"
 		(shape input)
@@ -2395,18 +2619,6 @@
 			(justify left)
 		)
 		(uuid "9e3003e4-0c64-4cf5-855e-36de08091e17")
-	)
-	(hierarchical_label "REFOUT"
-		(shape output)
-		(at 101.6 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a54c1468-cf32-4483-b7c7-51d8bd834920")
 	)
 	(hierarchical_label "SYNCin"
 		(shape input)
@@ -2697,6 +2909,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a93a91bd-607c-4c62-8b4a-3230cef08aa5")
 		)
@@ -2861,7 +3091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 94.9452 30.48 0)
 			(effects
 				(font
@@ -2880,6 +3110,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 93.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 93.98 26.67 0)
 			(effects
 				(font
@@ -2935,7 +3183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 30.1752 91.44 0)
 			(effects
 				(font
@@ -2954,6 +3202,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 29.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 29.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 29.21 87.63 0)
 			(effects
 				(font
@@ -2992,7 +3258,7 @@
 		(fields_autoplaced yes)
 		(uuid "404a2fd9-dc0c-47d0-8dfb-cdb8411bd005")
 		(property "Reference" "C34"
-			(at 67.31 87.63 0)
+			(at 67.31 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,8 +3266,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 67.31 90.17 0)
+		(property "Value" "0.1u"
+			(at 67.31 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 64.4652 92.71 0)
 			(effects
 				(font
@@ -3028,6 +3294,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 63.5 88.9 0)
 			(effects
 				(font
@@ -3266,75 +3550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 93.98 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6801cf27-b749-47c0-a453-8eeda6a941a0")
-		(property "Reference" "#PWR035"
-			(at 93.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 93.98 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3890a0c2-1a89-4a26-b338-be84df510cbc")
-		)
-		(instances
-			(project "launchpad-controller-v2"
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 179.07 88.9 0)
 		(unit 1)
@@ -3362,7 +3577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 180.0352 92.71 0)
 			(effects
 				(font
@@ -3399,6 +3614,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 179.07 88.9 0)
 			(effects
 				(font
@@ -3733,7 +3966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 82.2452 59.69 0)
 			(effects
 				(font
@@ -3752,6 +3985,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 81.28 55.88 0)
 			(effects
 				(font
@@ -3877,7 +4128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 70.8152 59.69 0)
 			(effects
 				(font
@@ -3896,6 +4147,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 69.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -4021,7 +4290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.4652 92.71 0)
 			(effects
 				(font
@@ -4066,6 +4335,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd9a92b3-226a-4859-a294-8b8dfe9c5435")
 		)
@@ -4085,8 +4372,78 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 93.98 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc02b3ee-41c0-43f7-94f1-cf3037b67ef3")
+		(property "Reference" "#PWR035"
+			(at 93.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 93.98 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4674f87-50c0-4eba-9a2d-fbec3b6dcec6")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 16.51 48.26)
+		(at 25.4 48.26)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -4098,7 +4455,7 @@
 		)
 		(uuid "365bbcf0-8c33-4f67-9581-82b6c123a1f9")
 		(property "Sheetname" "Thermocouple Input and Amplifier1"
-			(at 16.51 47.5484 0)
+			(at 25.4 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4464,7 @@
 			)
 		)
 		(property "Sheetfile" "thermocouple.kicad_sch"
-			(at 16.51 52.6546 0)
+			(at 25.4 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4473,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 29.21 49.53 0)
+			(at 38.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,6 +4481,16 @@
 				(justify right)
 			)
 			(uuid "ddbe3c0d-4a88-4b03-a290-07c7724b2b9f")
+		)
+		(pin "REFIN" input
+			(at 25.4 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c31157cb-9928-4bf7-ad1f-a52a9bc7823f")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -4188,7 +4555,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 38.1)
+		(at 25.4 38.1)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -4200,7 +4567,7 @@
 		)
 		(uuid "3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d")
 		(property "Sheetname" "Thermocouple Input and Amplifier"
-			(at 16.51 37.3884 0)
+			(at 25.4 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4576,7 @@
 			)
 		)
 		(property "Sheetfile" "thermocouple.kicad_sch"
-			(at 16.51 42.4946 0)
+			(at 25.4 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4585,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 29.21 39.37 0)
+			(at 38.1 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,6 +4593,16 @@
 				(justify right)
 			)
 			(uuid "73ee4e7d-2351-4d49-be36-696b0c249a3d")
+		)
+		(pin "REFIN" input
+			(at 25.4 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b83f9e9d-dc9a-4964-9545-4a0e5bca2ee0")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -4361,7 +4738,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 58.42)
+		(at 25.4 58.42)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -4373,7 +4750,7 @@
 		)
 		(uuid "7087bf54-b98f-4d83-94e1-edb8f538391f")
 		(property "Sheetname" "Thermocouple Input and Amplifier2"
-			(at 16.51 57.7084 0)
+			(at 25.4 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4759,7 @@
 			)
 		)
 		(property "Sheetfile" "thermocouple.kicad_sch"
-			(at 16.51 62.8146 0)
+			(at 25.4 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4768,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 29.21 59.69 0)
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,6 +4776,16 @@
 				(justify right)
 			)
 			(uuid "bc445c66-0c4f-40cd-848d-2900feb540b9")
+		)
+		(pin "REFIN" input
+			(at 25.4 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea24faa0-c6c2-44b0-8a85-c5686b8f7bbd")
 		)
 		(instances
 			(project "launchpad-controller-v2"
@@ -4636,7 +5023,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 68.58)
+		(at 25.4 68.58)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -4648,7 +5035,7 @@
 		)
 		(uuid "e63e5ec2-aa86-4cfd-8092-3245c4f5905f")
 		(property "Sheetname" "Thermocouple Input and Amplifier3"
-			(at 16.51 67.8684 0)
+			(at 25.4 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +5044,7 @@
 			)
 		)
 		(property "Sheetfile" "thermocouple.kicad_sch"
-			(at 16.51 72.9746 0)
+			(at 25.4 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +5053,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 29.21 69.85 0)
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,6 +5061,16 @@
 				(justify right)
 			)
 			(uuid "792ebedd-aa89-44d3-af4f-5724bd454655")
+		)
+		(pin "REFIN" input
+			(at 25.4 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39b28e80-7d3e-4cdd-a62a-a9581d1365fb")
 		)
 		(instances
 			(project "launchpad-controller-v2"

@@ -5,7 +5,7 @@
 	(uuid "4e8f6175-9aea-4951-b154-d2128751e6cd")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Socket"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,7 +19,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Socket"
+			(property "Value" "Conn_01x04"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -45,21 +45,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -80,11 +72,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -93,10 +84,9 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -105,10 +95,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -117,10 +106,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -129,52 +117,15 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
@@ -548,7 +499,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 59.69 60.96)
+			(xy 59.69 60.96) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
@@ -566,7 +517,7 @@
 		)
 		(uuid "c8e67f70-0c99-40c9-abcd-a1afbf47149b")
 	)
-	(text "super simple. \nfuse on the output to prevent damage by connecting to sketchy peripheral.\nsensor should drive the current, so shouldn't see too much noise => no filter required"
+	(text "super simple. \nfuse on the output to prevent damage to ADC by connecting to sketchy peripheral.\nsensor should drive the current, so shouldn't see too much noise => no filter required"
 		(exclude_from_sim no)
 		(at 54.61 76.2 0)
 		(effects
@@ -577,9 +528,29 @@
 		)
 		(uuid "5b92be2b-ba18-43bb-90ee-cd6e4d9411a5")
 	)
+	(text "Add TVS + RC low pass + maybe a fuse? "
+		(exclude_from_sim no)
+		(at 89.662 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8350cb82-4730-4637-95e1-f5d8a28ee71c")
+	)
+	(text "Add TVS on output"
+		(exclude_from_sim no)
+		(at 74.93 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7946d09-0ae7-45c2-b5e0-9cf72776b240")
+	)
 	(hierarchical_label "Iout"
 		(shape output)
-		(at 100.33 60.96 0)
+		(at 113.03 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -588,109 +559,6 @@
 			(justify left)
 		)
 		(uuid "76d36eee-54db-438b-b83b-c8c848be6fc2")
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 54.61 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35251146-5a9e-4ed5-9dd8-943d6ff6084e")
-		(property "Reference" "J36"
-			(at 55.245 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 55.245 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ceb106ba-8f50-4ebc-88cf-3afab1314e05")
-		)
-		(pin "2"
-			(uuid "95066168-b116-48c0-ae34-584e60930b38")
-		)
-		(pin "3"
-			(uuid "ce52b6ac-3eb2-4656-ad67-20c152f36e8d")
-		)
-		(pin "4"
-			(uuid "d40e2d8d-da88-49d4-89a4-814013a537ee")
-		)
-		(instances
-			(project "launchpad-controller-v2"
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/8b7fdee2-3fcb-42fa-985c-bfd6e79c809e"
-					(reference "J36")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3919f185-a901-4bba-83cc-d41cbc978790"
-					(reference "J34")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/72a8f92f-4182-43d4-8af1-acd53b109eaa"
-					(reference "J35")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/ed57d8d7-5554-42ed-b519-c3d4f9c227b5"
-					(reference "J37")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/ed57d8d7-5554-42ed-b519-c3d4f9c227b5"
-					(reference "J38")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/8b7fdee2-3fcb-42fa-985c-bfd6e79c809e"
-					(reference "J39")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/3919f185-a901-4bba-83cc-d41cbc978790"
-					(reference "J40")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/72a8f92f-4182-43d4-8af1-acd53b109eaa"
-					(reference "J41")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+12L")
@@ -787,6 +655,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 54.61 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfc14f2b-ae3e-48e4-9d01-e204a08bb1a5")
+		(property "Reference" "J34"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b2100c9-998b-40ad-8ac3-f477ab5572f1")
+		)
+		(pin "2"
+			(uuid "43bd3e58-cd07-487b-8194-5339ec36357b")
+		)
+		(pin "4"
+			(uuid "e23fa5ec-2745-4816-b2a1-d9f7ef8cb198")
+		)
+		(pin "3"
+			(uuid "81861b22-ef1e-4326-8de8-55e87f169937")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/ed57d8d7-5554-42ed-b519-c3d4f9c227b5"
+					(reference "J34")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3919f185-a901-4bba-83cc-d41cbc978790"
+					(reference "J14")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/72a8f92f-4182-43d4-8af1-acd53b109eaa"
+					(reference "J17")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/8b7fdee2-3fcb-42fa-985c-bfd6e79c809e"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/ed57d8d7-5554-42ed-b519-c3d4f9c227b5"
+					(reference "J33")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/8b7fdee2-3fcb-42fa-985c-bfd6e79c809e"
+					(reference "J35")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/3919f185-a901-4bba-83cc-d41cbc978790"
+					(reference "J36")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/72a8f92f-4182-43d4-8af1-acd53b109eaa"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 73.66 58.42 90)
 		(unit 1)
@@ -804,7 +775,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "90 mA; 30 mA; 36V"
 			(at 73.66 54.61 90)
 			(effects
 				(font
@@ -812,7 +783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 78.74 57.15 0)
 			(effects
 				(font
@@ -822,7 +793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://m.littelfuse.com/media?resourcetype=datasheets&itemid=879563f9-97a7-4e71-adba-37de085b333f&filename=littelfuse-ptc-0603l-datasheet"
 			(at 73.66 58.42 0)
 			(effects
 				(font
@@ -831,7 +802,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0603L003/36YR"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "576-0603L003/36YR"
 			(at 73.66 58.42 0)
 			(effects
 				(font

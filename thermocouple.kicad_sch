@@ -682,126 +682,6 @@
 				)
 			)
 		)
-		(symbol "power:+2V5"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+2V5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -1026,6 +906,12 @@
 		(uuid "0a5a73d8-acf8-4e52-bdfc-1ab57c7ea8f7")
 	)
 	(junction
+		(at 81.28 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38368b0b-3c0c-4079-ad9f-84d2f8522ba4")
+	)
+	(junction
 		(at 110.49 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1044,12 +930,6 @@
 		(uuid "626bb751-2772-4310-8627-4e6b3d959148")
 	)
 	(junction
-		(at 81.28 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "970aa4ce-acfb-423f-baea-7dccbb389054")
-	)
-	(junction
 		(at 73.66 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1062,6 +942,12 @@
 		(uuid "b4f77432-3f8e-425d-9a85-6b2c7d49eb90")
 	)
 	(junction
+		(at 81.28 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69ac172-cf9a-44eb-8713-02e9c8ff9564")
+	)
+	(junction
 		(at 124.46 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1072,12 +958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed6473a0-ef49-45ff-8bc6-fe9e514c71eb")
-	)
-	(junction
-		(at 81.28 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1725265-9acf-4d7b-8a19-6ac3a2165cf2")
 	)
 	(junction
 		(at 96.52 55.88)
@@ -1139,6 +1019,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 95.25) (xy 96.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2955460a-6bf5-4f34-a95e-d4c803390349")
+	)
+	(wire
+		(pts
 			(xy 99.06 95.25) (xy 105.41 95.25)
 		)
 		(stroke
@@ -1169,23 +1059,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 96.52 102.87)
+			(xy 68.58 102.87) (xy 81.28 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "452b0a25-d8d7-4c46-bb11-045917de423f")
-	)
-	(wire
-		(pts
-			(xy 68.58 95.25) (xy 81.28 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52d7eb4e-7e0f-4039-8740-bb29fb97fda9")
 	)
 	(wire
 		(pts
@@ -1196,6 +1076,16 @@
 			(type default)
 		)
 		(uuid "54dbae9f-f2e0-44b8-8256-b1c81394f0e5")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f9fbe3-bbfe-4148-85a5-17558c8dcd6e")
 	)
 	(wire
 		(pts
@@ -1216,16 +1106,6 @@
 			(type default)
 		)
 		(uuid "5de87a64-1ca4-4aee-ae22-5f55aec5448a")
-	)
-	(wire
-		(pts
-			(xy 101.6 86.36) (xy 105.41 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65af854c-1bee-41ba-97ac-f08ea76a3ee6")
 	)
 	(wire
 		(pts
@@ -1289,6 +1169,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 102.87) (xy 96.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8893b0d8-731f-4ee3-bb1c-f877fa98a944")
+	)
+	(wire
+		(pts
 			(xy 105.41 95.25) (xy 110.49 95.25)
 		)
 		(stroke
@@ -1329,17 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 102.87) (xy 81.28 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c07e86f-5665-4565-a3fb-b2a6347672e9")
-	)
-	(wire
-		(pts
-			(xy 81.28 95.25) (xy 96.52 95.25)
+			(xy 68.58 95.25) (xy 81.28 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1396,16 +1276,6 @@
 			(type default)
 		)
 		(uuid "b29c8f12-d3d4-4642-bce1-2bc659ffa889")
-	)
-	(wire
-		(pts
-			(xy 81.28 95.25) (xy 81.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ca45c6-67bf-45a3-8f94-62b3dcdf8083")
 	)
 	(wire
 		(pts
@@ -1517,6 +1387,16 @@
 		)
 		(uuid "f18a38e9-83b4-41c2-9d12-eb5b24b89815")
 	)
+	(text "Screw terminal close to thermocouple amp"
+		(exclude_from_sim no)
+		(at 45.466 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "916a343c-9783-4b4c-8973-0d278e42754b")
+	)
 	(hierarchical_label "Vout"
 		(shape output)
 		(at 140.97 72.39 0)
@@ -1528,6 +1408,18 @@
 			(justify left)
 		)
 		(uuid "0982d121-fcf1-4633-b3fa-3de11c3ca10c")
+	)
+	(hierarchical_label "REFIN"
+		(shape input)
+		(at 102.87 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7316026-e27d-4479-99c7-0818ea973d19")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1558,7 +1450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 123.4948 63.5 0)
 			(effects
 				(font
@@ -1577,6 +1469,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 124.46 59.69 0)
 			(effects
 				(font
@@ -1750,7 +1660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 127.9652 80.01 0)
 			(effects
 				(font
@@ -1769,6 +1679,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 127 76.2 0)
 			(effects
 				(font
@@ -1815,6 +1743,119 @@
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/7087bf54-b98f-4d83-94e1-edb8f538391f"
 					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25abc975-89f6-41b0-b2a2-e1ca04583822")
+		(property "Reference" "R91"
+			(at 119.38 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 119.38 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 119.38 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "978b024e-5efb-4c8c-aa83-07b8260b8585")
+		)
+		(pin "1"
+			(uuid "8644556e-8d0a-4c33-af20-2ef379f80f75")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
+					(reference "R91")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/7087bf54-b98f-4d83-94e1-edb8f538391f"
+					(reference "R86")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d"
+					(reference "R87")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
+					(reference "R88")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
+					(reference "R89")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d"
+					(reference "R90")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
+					(reference "R92")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/7087bf54-b98f-4d83-94e1-edb8f538391f"
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -1942,7 +1983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 74.6252 85.09 0)
 			(effects
 				(font
@@ -1961,6 +2002,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -2109,14 +2168,13 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 63.5 74.93 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8beb69c6-d247-4adb-9eae-f3fa8257649b")
-		(property "Reference" "10k1"
+		(uuid "6dfea1f4-ba50-4b9d-8aaa-d1bc445f006a")
+		(property "Reference" "R99"
 			(at 63.5 81.28 90)
 			(effects
 				(font
@@ -2124,7 +2182,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 63.5 78.74 90)
 			(effects
 				(font
@@ -2132,8 +2190,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 73.152 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 63.5 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 63.5 74.93 0)
 			(effects
 				(font
@@ -2159,44 +2217,62 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f9189192-a828-4953-9dec-438b3b5e4017")
+		(property "LCSC#" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "547d5cfc-9c9b-4de0-ae33-4e0ebe119a24")
+			(uuid "662dc292-5d69-4956-af68-d388029a325f")
+		)
+		(pin "1"
+			(uuid "aa7542f4-1fc3-43c0-a9b5-69de9b29345e")
 		)
 		(instances
 			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
+					(reference "R99")
+					(unit 1)
+				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/7087bf54-b98f-4d83-94e1-edb8f538391f"
-					(reference "10k1")
+					(reference "R94")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d"
-					(reference "10k2")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
-					(reference "10k4")
+					(reference "R95")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
-					(reference "10k3")
+					(reference "R96")
 					(unit 1)
 				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
-					(reference "10k7")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
-					(reference "10k6")
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
+					(reference "R97")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d"
-					(reference "10k5")
+					(reference "R98")
+					(unit 1)
+				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
+					(reference "R100")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/7087bf54-b98f-4d83-94e1-edb8f538391f"
-					(reference "10k8")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 82.2452 102.87 0)
 			(effects
 				(font
@@ -2343,6 +2419,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 81.28 99.06 0)
 			(effects
 				(font
@@ -2420,7 +2514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 63.5 71.628 90)
 			(effects
 				(font
@@ -2439,6 +2533,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 63.5 69.85 0)
 			(effects
 				(font
@@ -2611,7 +2723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 27.305 73.66 0)
 			(effects
 				(font
@@ -2630,6 +2742,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 41.91 72.39 0)
 			(effects
 				(font
@@ -2776,102 +2906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 119.38 72.39 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1739a48-5d08-494d-ba50-530d9462bf11")
-		(property "Reference" "100k1"
-			(at 119.38 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 119.38 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d8c2ae4-c12e-4e23-8b2d-7d0f7bb2433b")
-		)
-		(pin "2"
-			(uuid "6c77984f-66bb-4c15-93fc-e41f5b119c32")
-		)
-		(instances
-			(project "launchpad-controller-v2"
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/7087bf54-b98f-4d83-94e1-edb8f538391f"
-					(reference "100k1")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d"
-					(reference "100k2")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
-					(reference "100k4")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
-					(reference "100k3")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
-					(reference "100k7")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
-					(reference "100k6")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d"
-					(reference "100k5")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/7087bf54-b98f-4d83-94e1-edb8f538391f"
-					(reference "100k8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 73.66 63.5 0)
 		(unit 1)
@@ -2899,7 +2933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 74.6252 67.31 0)
 			(effects
 				(font
@@ -2918,6 +2952,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -3066,24 +3118,13 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 53.34 64.77 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4ad9f89-0cb1-48fb-bedb-eaafd17bcdb6")
 		(property "Reference" "R1"
-			(at 55.88 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
 			(at 55.88 63.5 0)
 			(effects
 				(font
@@ -3092,7 +3133,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "1M"
+			(at 55.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 51.562 64.77 90)
 			(effects
 				(font
@@ -3111,6 +3161,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 53.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 53.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 53.34 64.77 0)
 			(effects
 				(font
@@ -3214,6 +3282,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d5239d6-dbab-4f04-9f32-f90f6b9d12f0")
 		)
@@ -3304,7 +3390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 110.7948 63.5 0)
 			(effects
 				(font
@@ -3323,6 +3409,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 111.76 59.69 0)
 			(effects
 				(font
@@ -3468,100 +3572,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 105.41 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4d49810-12a5-433a-b89e-5306ccbbb742")
-		(property "Reference" "#PWR0139"
-			(at 105.41 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 105.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bfe5fce-e15a-4952-bfcc-7f626647790a")
-		)
-		(instances
-			(project "launchpad-controller-v2"
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/7087bf54-b98f-4d83-94e1-edb8f538391f"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/3c7abe12-b46c-41c0-9cc6-5acdbdf4cf2d"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/365bbcf0-8c33-4f67-9581-82b6c123a1f9"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/e63e5ec2-aa86-4cfd-8092-3245c4f5905f"
-					(reference "#PWR0143")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/7087bf54-b98f-4d83-94e1-edb8f538391f"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 68.58 99.06 0)
 		(unit 1)
@@ -3589,7 +3599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 69.5452 102.87 0)
 			(effects
 				(font
@@ -3608,6 +3618,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 68.58 99.06 0)
 			(effects
 				(font
@@ -3687,7 +3715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 74.6252 76.2 0)
 			(effects
 				(font
@@ -3706,6 +3734,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 73.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
 			(at 73.66 72.39 0)
 			(effects
 				(font
