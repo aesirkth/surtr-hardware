@@ -508,7 +508,12 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ETHPHY/RD_N": "100Ohm",
+      "/ETHPHY/RD_P": "100Ohm",
+      "/ETHPHY/TD_N": "100Ohm",
+      "/ETHPHY/TD_P": "100Ohm"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
