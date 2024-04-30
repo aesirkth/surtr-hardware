@@ -30712,6 +30712,7 @@
 		)
 		(pin "100"
 			(uuid "9d59e1c6-c2a8-4fd6-8271-82e3df9d0cfb")
+			(alternate "RCC_MCO_1")
 		)
 		(pin "101"
 			(uuid "bd8a512c-1acc-48ce-bd97-dbb6958661f2")
@@ -30748,12 +30749,15 @@
 		)
 		(pin "111"
 			(uuid "af7d7f7c-4f87-4227-b0b6-5b2fc2640153")
+			(alternate "SPI3_SCK")
 		)
 		(pin "112"
 			(uuid "23623f1a-520e-4c44-b62a-67bc9c1ff575")
+			(alternate "SPI3_MISO")
 		)
 		(pin "113"
 			(uuid "add63638-14d3-4185-a776-1c4a54b28bf0")
+			(alternate "SPI3_MOSI")
 		)
 		(pin "114"
 			(uuid "cf5dcc85-7d78-4881-a403-404a3244a21a")
@@ -30787,27 +30791,33 @@
 		)
 		(pin "123"
 			(uuid "6f092524-0f4b-425a-a829-196e2f1f4096")
+			(alternate "SPI1_MOSI")
 		)
 		(pin "124"
 			(uuid "3e7e644f-7d79-4119-addc-d96228dbd3e4")
+			(alternate "SPI1_MISO")
 		)
 		(pin "125"
 			(uuid "2b2b6310-1505-4bf2-aafd-7c828c76c358")
 		)
 		(pin "126"
 			(uuid "e6dcb427-cc4e-40c7-8ddb-2bedc3bddb10")
+			(alternate "SPI1_SCK")
 		)
 		(pin "127"
 			(uuid "0fcc10fc-c0eb-46ca-818a-126edb0ee1a0")
+			(alternate "ETH_TXD1")
 		)
 		(pin "128"
 			(uuid "691f795c-bda7-4367-aff4-07547913f665")
+			(alternate "ETH_TXD0")
 		)
 		(pin "129"
 			(uuid "b11c5733-527c-47cf-9a4e-615d06274c34")
 		)
 		(pin "13"
 			(uuid "58bffaeb-71e8-4d51-9e71-520e87516722")
+			(alternate "ADC3_INP5")
 		)
 		(pin "130"
 			(uuid "02f2d1c1-c135-4527-832a-0bd7f70e59a5")
@@ -30863,6 +30873,7 @@
 		)
 		(pin "15"
 			(uuid "b4e037df-e5d4-4b11-88b1-789f48293828")
+			(alternate "ADC3_INP4")
 		)
 		(pin "16"
 			(uuid "b1bb3957-f091-48c8-92f1-b0374458f5a4")
@@ -30872,9 +30883,11 @@
 		)
 		(pin "18"
 			(uuid "25092f56-b284-4852-a568-2ee3fd69e75a")
+			(alternate "FDCAN3_RX")
 		)
 		(pin "19"
 			(uuid "bdc7f99b-d8cb-4335-85dc-06fa86c6ae7b")
+			(alternate "FDCAN3_TX")
 		)
 		(pin "2"
 			(uuid "27bf7043-2856-49db-8f26-df60f1d0508c")
@@ -30887,6 +30900,7 @@
 		)
 		(pin "22"
 			(uuid "71071b9c-11fb-4385-bcaf-cf814c2aa01c")
+			(alternate "ADC3_INP6")
 		)
 		(pin "23"
 			(uuid "16787005-2e95-490d-8e2f-a4466332a006")
@@ -30901,9 +30915,11 @@
 		)
 		(pin "26"
 			(uuid "dbbb5d45-c66a-45b0-876f-3ffe2791792f")
+			(alternate "ADC1_INP10")
 		)
 		(pin "27"
 			(uuid "88fa7f69-6be2-4608-b18f-a0eb43dce091")
+			(alternate "ETH_MDC")
 		)
 		(pin "28"
 			(uuid "0285caf3-542e-4f22-a3d0-2ddeebbf49de")
@@ -30934,9 +30950,11 @@
 		)
 		(pin "36"
 			(uuid "549ae8c7-69cb-4b95-9648-b0b424e89150")
+			(alternate "ETH_MDIO")
 		)
 		(pin "37"
 			(uuid "e8d6e541-12a8-412e-b6ce-0d2964215502")
+			(alternate "ADC1_INP15")
 		)
 		(pin "38"
 			(uuid "f901f0a6-9418-4629-9dd6-ee00ec5f3e38")
@@ -30949,39 +30967,49 @@
 		)
 		(pin "40"
 			(uuid "fc9c4555-05b0-4c98-91ee-3512c91504e0")
+			(alternate "ADC1_INP18")
 		)
 		(pin "41"
 			(uuid "2ebda317-eeda-4cb6-8ef3-55e4157ee1e6")
+			(alternate "ADC1_INP19")
 		)
 		(pin "42"
 			(uuid "4f6c2383-7f17-44b2-bca7-8863af173fa0")
+			(alternate "ADC1_INP3")
 		)
 		(pin "43"
 			(uuid "af8b5fbe-ad13-42b5-8c01-5211d76c4d3b")
+			(alternate "ETH_CRS_DV")
 		)
 		(pin "44"
 			(uuid "e68de2a9-d450-4c16-a9f6-980fc724b540")
+			(alternate "ETH_RXD0")
 		)
 		(pin "45"
 			(uuid "70457d6d-a84e-4b9d-a5f9-3dd07ee73eb7")
+			(alternate "ETH_RXD1")
 		)
 		(pin "46"
 			(uuid "75039c63-146d-4ee2-b780-d8fda11aecc4")
+			(alternate "ADC1_INP9")
 		)
 		(pin "47"
 			(uuid "b7d92005-9a5c-4a7e-b2a9-4d435e322223")
+			(alternate "ADC1_INP5")
 		)
 		(pin "48"
 			(uuid "d4e34fbe-9313-4850-850d-ad10c1a4b998")
 		)
 		(pin "49"
 			(uuid "f769b834-2855-459f-99dc-8923c6a3631d")
+			(alternate "ADC1_INP2")
 		)
 		(pin "5"
 			(uuid "1d770406-9f80-4c4d-a342-6ba8d510d584")
 		)
 		(pin "50"
 			(uuid "2bb00cf4-1d03-42b0-ade6-ed9d76a7e801")
+			(alternate "ADC1_INP6")
 		)
 		(pin "51"
 			(uuid "16a49892-1ea1-4536-ac90-b5edad93f74d")
@@ -30991,9 +31019,11 @@
 		)
 		(pin "53"
 			(uuid "91ff851e-163e-41b0-ac79-eff3389e7066")
+			(alternate "ADC2_INP2")
 		)
 		(pin "54"
 			(uuid "c2ef2568-3db1-42e9-8827-55cffdd2197d")
+			(alternate "ADC2_INP6")
 		)
 		(pin "55"
 			(uuid "c2e23741-7d5b-420c-a183-5d954cc931dc")
@@ -31048,6 +31078,7 @@
 		)
 		(pin "70"
 			(uuid "93094e19-b029-471f-b9a2-759680ab95ba")
+			(alternate "ETH_TX_EN")
 		)
 		(pin "71"
 			(uuid "0c81176c-ae7a-44a9-af97-1c7aafa1e175")
