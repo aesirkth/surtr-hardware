@@ -810,7 +810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc14f2b-ae3e-48e4-9d01-e204a08bb1a5")
-		(property "Reference" "J34"
+		(property "Reference" "J18"
 			(at 54.61 52.07 0)
 			(effects
 				(font
@@ -871,35 +871,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/ed57d8d7-5554-42ed-b519-c3d4f9c227b5"
-					(reference "J34")
+					(reference "J18")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3919f185-a901-4bba-83cc-d41cbc978790"
-					(reference "J14")
+					(reference "J20")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/72a8f92f-4182-43d4-8af1-acd53b109eaa"
-					(reference "J17")
+					(reference "J22")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/8b7fdee2-3fcb-42fa-985c-bfd6e79c809e"
-					(reference "J31")
+					(reference "J25")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/ed57d8d7-5554-42ed-b519-c3d4f9c227b5"
-					(reference "J33")
+					(reference "J26")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/8b7fdee2-3fcb-42fa-985c-bfd6e79c809e"
-					(reference "J35")
+					(reference "J17")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/3919f185-a901-4bba-83cc-d41cbc978790"
-					(reference "J36")
+					(reference "J16")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/72a8f92f-4182-43d4-8af1-acd53b109eaa"
-					(reference "J37")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -915,7 +915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d370d53d-92d1-4d43-8be2-7bd3f3c72683")
-		(property "Reference" "F14"
+		(property "Reference" "F11"
 			(at 73.66 52.07 90)
 			(effects
 				(font
@@ -986,35 +986,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/ed57d8d7-5554-42ed-b519-c3d4f9c227b5"
-					(reference "F14")
-					(unit 1)
-				)
-				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3919f185-a901-4bba-83cc-d41cbc978790"
 					(reference "F11")
 					(unit 1)
 				)
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/3919f185-a901-4bba-83cc-d41cbc978790"
+					(reference "F8")
+					(unit 1)
+				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/72a8f92f-4182-43d4-8af1-acd53b109eaa"
-					(reference "F12")
+					(reference "F9")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/dbac82f3-7447-480a-94cd-632941520571/8b7fdee2-3fcb-42fa-985c-bfd6e79c809e"
-					(reference "F13")
+					(reference "F10")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/ed57d8d7-5554-42ed-b519-c3d4f9c227b5"
-					(reference "F15")
+					(reference "F6")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/8b7fdee2-3fcb-42fa-985c-bfd6e79c809e"
-					(reference "F16")
+					(reference "F4")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/3919f185-a901-4bba-83cc-d41cbc978790"
-					(reference "F17")
+					(reference "F5")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/5b962238-ad91-40ff-b76d-985e2dbc0aeb/72a8f92f-4182-43d4-8af1-acd53b109eaa"
-					(reference "F18")
+					(reference "F7")
 					(unit 1)
 				)
 			)

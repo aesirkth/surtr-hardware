@@ -1230,7 +1230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a92839-c22b-45e2-9a4c-c02ea93a2c04")
-		(property "Reference" "J20"
+		(property "Reference" "J3"
 			(at 152.4 104.1399 0)
 			(effects
 				(font
@@ -1308,35 +1308,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
-					(reference "J20")
+					(reference "J3")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
-					(reference "J39")
+					(reference "J5")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
-					(reference "J40")
+					(reference "J4")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
-					(reference "J41")
+					(reference "J32")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9f191044-53cd-450c-80d5-69a7c8e9d169"
-					(reference "J42")
+					(reference "J33")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
-					(reference "J43")
+					(reference "J34")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
-					(reference "J44")
+					(reference "J35")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
-					(reference "J45")
+					(reference "J36")
 					(unit 1)
 				)
 			)
@@ -1352,7 +1352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2660be64-a2b0-4120-92cf-74cf1a57e545")
-		(property "Reference" "R30"
+		(property "Reference" "R70"
 			(at 66.04 63.5 90)
 			(effects
 				(font
@@ -1422,35 +1422,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9f191044-53cd-450c-80d5-69a7c8e9d169"
-					(reference "R30")
+					(reference "R70")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
-					(reference "R36")
+					(reference "R74")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
-					(reference "R32")
+					(reference "R81")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
-					(reference "R40")
+					(reference "R83")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
-					(reference "R46")
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
-					(reference "R50")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
-					(reference "R52")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
-					(reference "R48")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -1466,7 +1466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b46262f-e523-434b-9daf-286fe07212ba")
-		(property "Reference" "D11"
+		(property "Reference" "D26"
 			(at 60.96 72.39 90)
 			(effects
 				(font
@@ -1538,35 +1538,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9f191044-53cd-450c-80d5-69a7c8e9d169"
-					(reference "D11")
+					(reference "D26")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
-					(reference "D12")
+					(reference "D28")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
-					(reference "D10")
+					(reference "D31")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
-					(reference "D14")
+					(reference "D33")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
-					(reference "D15")
+					(reference "D9")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
-					(reference "D17")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
-					(reference "D18")
+					(reference "D25")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
-					(reference "D16")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -1582,7 +1582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "746b1e28-3817-4e0b-ac3b-a30902a54173")
-		(property "Reference" "R64"
+		(property "Reference" "R3"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -1654,35 +1654,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
-					(reference "R64")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
-					(reference "R65")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
-					(reference "R68")
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
-					(reference "R107")
+					(reference "R66")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9f191044-53cd-450c-80d5-69a7c8e9d169"
-					(reference "R108")
+					(reference "R73")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
-					(reference "R109")
+					(reference "R76")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
-					(reference "R110")
+					(reference "R80")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
-					(reference "R111")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -1792,7 +1792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8442f42f-fde3-423f-bbc4-61ca0a9914c8")
-		(property "Reference" "R112"
+		(property "Reference" "R18"
 			(at 78.74 58.42 90)
 			(effects
 				(font
@@ -1862,35 +1862,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
-					(reference "R112")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
-					(reference "R113")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
-					(reference "R114")
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
-					(reference "R115")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9f191044-53cd-450c-80d5-69a7c8e9d169"
-					(reference "R116")
+					(reference "R71")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
-					(reference "R117")
+					(reference "R75")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
-					(reference "R118")
+					(reference "R79")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
-					(reference "R119")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -2000,7 +2000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c13b0b1-3f33-4dc4-a6fe-abcd60297490")
-		(property "Reference" "R26"
+		(property "Reference" "R72"
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -2072,35 +2072,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9f191044-53cd-450c-80d5-69a7c8e9d169"
-					(reference "R26")
+					(reference "R72")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
-					(reference "R37")
+					(reference "R77")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
-					(reference "R33")
+					(reference "R78")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
-					(reference "R41")
+					(reference "R82")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
-					(reference "R47")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
-					(reference "R51")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
-					(reference "R53")
+					(reference "R67")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
-					(reference "R49")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb9e65cb-9d82-4062-b748-8f2e3f646496")
-		(property "Reference" "U17"
+		(property "Reference" "U27"
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -2289,35 +2289,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9f191044-53cd-450c-80d5-69a7c8e9d169"
-					(reference "U17")
+					(reference "U27")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
-					(reference "U18")
+					(reference "U29")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
-					(reference "U19")
+					(reference "U30")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
-					(reference "U20")
+					(reference "U31")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
-					(reference "U12")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
-					(reference "U15")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
-					(reference "U16")
+					(reference "U26")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
-					(reference "U14")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2427,7 +2427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c276a20d-7e15-4c24-9a5a-f9b09852e6e1")
-		(property "Reference" "D32"
+		(property "Reference" "D1"
 			(at 107.95 74.93 90)
 			(effects
 				(font
@@ -2499,35 +2499,35 @@
 		(instances
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/a61809f6-2b6d-43df-945a-4c899a480c96"
-					(reference "D32")
+					(reference "D1")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/0d987e34-a998-4781-8ae3-e7dd98134bba"
-					(reference "D33")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/19b107db-30d9-4c74-94e0-fcb0233622c5"
-					(reference "D34")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/06495a80-291b-4f88-9fdf-53634843faa0"
-					(reference "D35")
+					(reference "D24")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/9f191044-53cd-450c-80d5-69a7c8e9d169"
-					(reference "D36")
+					(reference "D27")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/3d5bcff4-b6b9-4807-8368-f952c1ed9de9"
-					(reference "D37")
+					(reference "D29")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/91a93787-ec3b-43f1-a930-02c098151760"
-					(reference "D38")
+					(reference "D30")
 					(unit 1)
 				)
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2/7f9a9b1b-3d21-4b94-b6a4-bac86f5aac56"
-					(reference "D39")
+					(reference "D32")
 					(unit 1)
 				)
 			)
