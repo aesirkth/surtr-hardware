@@ -10293,6 +10293,12 @@
 		(uuid "58040d47-2869-47bc-ab44-4253bccfb3dd")
 	)
 	(junction
+		(at 407.67 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "594c2ca0-f031-487f-8c3c-337d9331ed1e")
+	)
+	(junction
 		(at 624.84 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10519,6 +10525,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5cf20e8-0109-4f90-9bb5-d5df8e83e16d")
+	)
+	(junction
+		(at 415.29 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8325b29-941a-4b54-81e2-a5fb8738821f")
 	)
 	(junction
 		(at 190.5 242.57)
@@ -11209,6 +11221,16 @@
 			(type default)
 		)
 		(uuid "165da0e6-1fd0-476b-8588-9f6e8ecc56ad")
+	)
+	(wire
+		(pts
+			(xy 407.67 275.59) (xy 415.29 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a8c776-fd91-41d4-b8e7-6c4fc0f40bcc")
 	)
 	(wire
 		(pts
@@ -12319,6 +12341,16 @@
 			(type default)
 		)
 		(uuid "54c6c4eb-e5c4-4fc7-900b-cb6660f4caa8")
+	)
+	(wire
+		(pts
+			(xy 407.67 270.51) (xy 407.67 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cdd246-ed9b-4b18-a83b-b7f80e81c6b6")
 	)
 	(wire
 		(pts
@@ -14042,6 +14074,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 275.59) (xy 407.67 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4049ca2-152f-4801-88fe-dc5b82129c8c")
+	)
+	(wire
+		(pts
 			(xy 127 379.73) (xy 142.24 379.73)
 		)
 		(stroke
@@ -14792,6 +14834,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 261.62) (xy 407.67 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e764c3f6-381a-4c63-a6f1-76c21133591d")
+	)
+	(wire
+		(pts
 			(xy 227.33 50.8) (xy 223.52 50.8)
 		)
 		(stroke
@@ -14799,6 +14851,16 @@
 			(type default)
 		)
 		(uuid "e7919361-77a7-4921-b33e-33665d770782")
+	)
+	(wire
+		(pts
+			(xy 397.51 270.51) (xy 397.51 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80cd063-825a-4975-8eef-108a04b16bfa")
 	)
 	(wire
 		(pts
@@ -14939,6 +15001,16 @@
 			(type default)
 		)
 		(uuid "ef52465f-9827-400e-8fde-df5867466e35")
+	)
+	(wire
+		(pts
+			(xy 397.51 261.62) (xy 397.51 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef53904a-327d-48d9-9f16-ad440d399ab9")
 	)
 	(wire
 		(pts
@@ -15700,7 +15772,7 @@
 		)
 		(uuid "196cbce5-92ef-42bf-9f40-93a055c982d0")
 	)
-	(label "SPI3_MOSI"
+	(label "SPI3_MISO"
 		(at 533.4 532.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -16382,7 +16454,7 @@
 		)
 		(uuid "78051f87-98fd-4711-848f-052a7289040c")
 	)
-	(label "SPI3_MISO"
+	(label "SPI3_MOSI"
 		(at 534.67 405.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -17097,7 +17169,7 @@
 		)
 		(uuid "e8cf1359-57a7-49fb-9897-e7ec20e2517e")
 	)
-	(label "SPI3_MISO"
+	(label "SPI3_MOSI"
 		(at 533.4 529.59 180)
 		(fields_autoplaced yes)
 		(effects
@@ -17229,7 +17301,7 @@
 		)
 		(uuid "fa795bd6-b557-4ab1-b6a6-f02524e577f9")
 	)
-	(label "SPI3_MOSI"
+	(label "SPI3_MISO"
 		(at 534.67 407.67 180)
 		(fields_autoplaced yes)
 		(effects
@@ -21524,6 +21596,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 397.51 259.08 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ecdb7ee-8d22-4457-af42-bf4573e739f6")
+		(property "Reference" "H6"
+			(at 396.24 254.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 400.05 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 397.51 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 397.51 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 397.51 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d8be96-288a-4592-ba10-55f1f5b8a2c4")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 659.13 115.57 0)
 		(unit 1)
@@ -25076,6 +25215,94 @@
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2"
 					(reference "U28")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 397.51 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b136938-e415-4054-b1eb-5fc2f9c8312c")
+		(property "Reference" "R104"
+			(at 400.05 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 400.05 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 395.732 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 397.51 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 397.51 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 397.51 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 397.51 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57d7b41c-0c33-47f0-90dc-3e3d9ff0add0")
+		)
+		(pin "2"
+			(uuid "12b459ba-2f83-4ff1-be87-11a4d3e7a0a1")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2"
+					(reference "R104")
+					(unit 1)
 				)
 			)
 		)
@@ -31581,6 +31808,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 407.67 259.08 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1ab72e1-4f3e-4f31-9b94-c43f90b48faa")
+		(property "Reference" "H5"
+			(at 406.4 254.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 410.21 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 407.67 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 407.67 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 407.67 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de375d7-c0a9-45ca-ad72-9d5b1a5e476d")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 636.27 374.65 0)
 		(unit 1)
@@ -31995,6 +32289,94 @@
 			(project "launchpad-controller-v2"
 				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2"
 					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 407.67 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f78e6f-620b-4963-b82b-17aedffbe5ea")
+		(property "Reference" "R103"
+			(at 410.21 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 410.21 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 405.892 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 407.67 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 407.67 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 407.67 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 407.67 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d256fca9-bb40-4ac7-911c-935052802771")
+		)
+		(pin "2"
+			(uuid "177776ef-a1e0-4c7c-9b21-87d14eaf0b3f")
+		)
+		(instances
+			(project "launchpad-controller-v2"
+				(path "/8b86c7a7-6364-4b1f-ab12-b4882a7d8ae2"
+					(reference "R103")
 					(unit 1)
 				)
 			)

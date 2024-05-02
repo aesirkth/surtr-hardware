@@ -1,4 +1,4 @@
-32484439627326
+34200476125828
 3557
 3557-2
 3557-2
@@ -94828,6 +94828,13 @@ Varistor VF
 0
 2
 2
+custom_footprints
+aesir_logo
+
+
+0
+0
+0
 custom_footprints
 generic_regulator
 

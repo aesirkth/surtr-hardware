@@ -1,0 +1,71 @@
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.9 (main, Nov 10 2011, 15:00:00) [GCC 13.2.0]'
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.1
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x7f6a8dba5480>
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with TC2 as a reference
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'TC2'
+Located on: ['ADC2', 'Thermocouple Input and Amplifier']
+With filenames: ['adc.kicad_sch', 'thermocouple.kicad_sch']
+With sheet_id:['ADC2', 'Thermocouple Input and Amplifier']
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('TC6', ['ADC1', 'Thermocouple Input and Amplifier2']), ('TC3', ['ADC2', 'Thermocouple Input and Amplifier2']), ('TC8', ['ADC1', 'Thermocouple Input and Amplifier3']), ('TC5', ['ADC1', 'Thermocouple Input and Amplifier']), ('TC4', ['ADC2', 'Thermocouple Input and Amplifier3']), ('TC7', ['ADC1', 'Thermocouple Input and Amplifier1']), ('TC2', ['ADC2', 'Thermocouple Input and Amplifier']), ('TC1', ['ADC2', 'Thermocouple Input and Amplifier1'])]
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Thermocouple Input and Amplifier', file:'thermocouple.kicad_sch'
+05-01 22:58:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['ADC1', 'Thermocouple Input and Amplifier'], ['ADC1', 'Thermocouple Input and Amplifier1'], ['ADC1', 'Thermocouple Input and Amplifier2'], ['ADC1', 'Thermocouple Input and Amplifier3'], ['ADC2', 'Thermocouple Input and Amplifier1'], ['ADC2', 'Thermocouple Input and Amplifier2'], ['ADC2', 'Thermocouple Input and Amplifier3']]
+05-01 22:58:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['ADC2', 'Thermocouple Input and Amplifier']
+05-01 22:58:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+05-01 22:58:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1698, 120)
+05-01 22:58:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1259, 120)
+05-01 22:58:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Thermocouple Input and Amplifier', file:'thermocouple.kicad_sch'
+05-01 22:58:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['ADC1', 'Thermocouple Input and Amplifier'], ['ADC1', 'Thermocouple Input and Amplifier1'], ['ADC1', 'Thermocouple Input and Amplifier2'], ['ADC1', 'Thermocouple Input and Amplifier3'], ['ADC2', 'Thermocouple Input and Amplifier1'], ['ADC2', 'Thermocouple Input and Amplifier2'], ['ADC2', 'Thermocouple Input and Amplifier3']]
+05-01 22:58:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['ADC2', 'Thermocouple Input and Amplifier']
+05-01 22:58:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+05-01 22:58:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Thermocouple Input and Amplifier', file:'thermocouple.kicad_sch'
+05-01 22:58:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['ADC1', 'Thermocouple Input and Amplifier'], ['ADC1', 'Thermocouple Input and Amplifier1'], ['ADC1', 'Thermocouple Input and Amplifier2'], ['ADC1', 'Thermocouple Input and Amplifier3'], ['ADC2', 'Thermocouple Input and Amplifier1'], ['ADC2', 'Thermocouple Input and Amplifier2'], ['ADC2', 'Thermocouple Input and Amplifier3']]
+05-01 22:58:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['ADC2', 'Thermocouple Input and Amplifier']
+05-01 22:58:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+05-01 22:58:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Thermocouple Input and Amplifier', file:'thermocouple.kicad_sch'
+05-01 22:58:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['ADC1', 'Thermocouple Input and Amplifier'], ['ADC1', 'Thermocouple Input and Amplifier1'], ['ADC1', 'Thermocouple Input and Amplifier2'], ['ADC1', 'Thermocouple Input and Amplifier3'], ['ADC2', 'Thermocouple Input and Amplifier1'], ['ADC2', 'Thermocouple Input and Amplifier2'], ['ADC2', 'Thermocouple Input and Amplifier3']]
+05-01 22:58:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['ADC2', 'Thermocouple Input and Amplifier']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Thermocouple Input and Amplifier', file:'thermocouple.kicad_sch'
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['ADC1', 'Thermocouple Input and Amplifier'], ['ADC1', 'Thermocouple Input and Amplifier1'], ['ADC1', 'Thermocouple Input and Amplifier2'], ['ADC1', 'Thermocouple Input and Amplifier3'], ['ADC2', 'Thermocouple Input and Amplifier1'], ['ADC2', 'Thermocouple Input and Amplifier2'], ['ADC2', 'Thermocouple Input and Amplifier3']]
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 278:Starting replication of sheets: [['ADC1', 'Thermocouple Input and Amplifier'], ['ADC1', 'Thermocouple Input and Amplifier1'], ['ADC1', 'Thermocouple Input and Amplifier2'], ['ADC1', 'Thermocouple Input and Amplifier3'], ['ADC2', 'Thermocouple Input and Amplifier1'], ['ADC2', 'Thermocouple Input and Amplifier2'], ['ADC2', 'Thermocouple Input and Amplifier3']]
+on level: ['ADC2', 'Thermocouple Input and Amplifier']
+with tracks=False, zone=False, text=True, text=False, intersecting=False, remove=False, locked footprints=False, group_only=False
+05-01 22:58:57 root 332:updating GUI message: 'Preparing for replication'
+05-01 22:58:57 root 337:updating GUI with: 0
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 348:Getting the list of source footprints
+05-01 22:58:57 root 337:updating GUI with: 0
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of all the remaining footprints
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 365:Getting source tracks
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 369:Getting source zones
+05-01 22:58:57 root 337:updating GUI with: 50
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 373:Getting source text items
+05-01 22:58:57 root 337:updating GUI with: 66
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:Getting source drawing items
+05-01 22:58:57 root 332:updating GUI message: 'Replicating footprints'
+05-01 22:58:57 root 337:updating GUI with: 0
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating footprints
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['ADC1', 'Thermocouple Input and Amplifier']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['ADC1', 'Thermocouple Input and Amplifier1']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['ADC1', 'Thermocouple Input and Amplifier2']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['ADC1', 'Thermocouple Input and Amplifier3']
+05-01 22:58:57 root 337:updating GUI with: 44
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['ADC2', 'Thermocouple Input and Amplifier1']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['ADC2', 'Thermocouple Input and Amplifier2']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['ADC2', 'Thermocouple Input and Amplifier3']
+05-01 22:58:57 root 337:updating GUI with: 95
+05-01 22:58:57 root 332:updating GUI message: 'Replicating text'
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1164:Replicating text
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['ADC1', 'Thermocouple Input and Amplifier']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['ADC1', 'Thermocouple Input and Amplifier1']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['ADC1', 'Thermocouple Input and Amplifier2']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['ADC1', 'Thermocouple Input and Amplifier3']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['ADC2', 'Thermocouple Input and Amplifier1']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['ADC2', 'Thermocouple Input and Amplifier2']
+05-01 22:58:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['ADC2', 'Thermocouple Input and Amplifier3']
+05-01 22:59:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
